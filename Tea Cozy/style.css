@@ -1,0 +1,156 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica";
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/*header*/
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+header nav a {
+    color: seashell;
+    padding: 10px
+}
+
+/*mission section*/
+
+.wrapper {
+   padding-top: 70px; 
+}
+
+.mission {
+    z-index: 5;
+    height: 700px;
+    background-image: url(img-mission-background.jpg);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.inside {
+    background-color: black;   
+}
+
+/*collection section*/
+
+.collection {
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.collection .title {
+    width: 1000px;
+}
+
+.collection img {
+    height: 200px;
+    width: 300px;
+}
+
+.rum {
+    padding: 0 50px;
+}
+
+.ave {
+    padding-right: 25px;
+}
+
+.bizarre {
+    padding-left: 25px;
+}
+
+.collection h4 {
+    margin-top: 10px;
+}
+
+/*location section*/
+
+.locations {
+    background-image: url(img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    z-index: 5;
+    margin: 0 auto; 
+}
+
+.name {
+    width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.name h2 {
+    margin-bottom: 0;
+}
+
+.addresses {
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+.address {
+    margin: 0 20px;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+}
+
+/*contacts section*/
+
+.contacts {
+    height: 200px;
+}
+
+.contacts h2 {
+   margin-top: 0; 
+}
+
+/*footer*/
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
+
+footer h5 {
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
